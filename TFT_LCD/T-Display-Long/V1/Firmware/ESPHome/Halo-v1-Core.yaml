@@ -20,6 +20,7 @@ esp32_improv:
 external_components:
   - source: github://horspiste/esphome-components
     components: [axs15231, sy6970]
+    refresh: 0s
 
 spi:
   id: lily_spi
