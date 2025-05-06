@@ -18,7 +18,7 @@ esp32_improv:
   authorizer: none
 
 external_components:
-  - source: github://yashmulgaonkar/esphome-components
+  - source: github://horspiste/esphome-components
     components: [axs15231, sy6970]
 
 spi:
@@ -198,7 +198,7 @@ web_server:
   port: 80
 
 image:
-  - file: https://yashmulgaonkar.github.io/assets/YM.png
+  - file: https://horspiste.github.io/assets/YM.png
     id: ym_logo
     resize: 25x25
     type: RGB565
