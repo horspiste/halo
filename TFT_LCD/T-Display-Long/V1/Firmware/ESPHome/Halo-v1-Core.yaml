@@ -24,7 +24,7 @@ esp32_improv:
 
 external_components:
   - source: github://yashmulgaonkar/esphome-components
-    components: [axs15231, sy6970]
+    components: [sy6970]
 
   - source: github://pr#7770 # RMT driver, remove rmt_channel when using esp-idf
     components: [ remote_base, remote_receiver, remote_transmitter, esp32_rmt, esp32_rmt_led_strip ]
